@@ -12,7 +12,7 @@ function setup() {
   userStartAudio();
 
   // Crear círculos
-  let numCircles = 5;
+  let numCircles = 20;
   let maxSize = min(width, height) * 0.8;
   let minSize = maxSize / numCircles;
   let sizeStep = (maxSize - minSize) / (numCircles - 1);
